@@ -1,11 +1,11 @@
-/* General Reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body and Main Layout */
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f9f9f9;
@@ -14,7 +14,7 @@ body {
     flex-direction: column;
 }
 
-/* Header */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -86,10 +86,12 @@ body {
     font-size: 24px;
 }
 
-/* Sidebar */
+
 .sidebar {
     position: fixed;
-    top: 56px;
+    top: 56px; 
+   
+
     left: 0;
     width: 240px;
     background-color: #fff;
@@ -131,14 +133,20 @@ body {
     font-size: 24px;
 }
 
-/* Content */
+
 .content {
     margin-left: 240px;
     margin-top: 80px; 
-    padding: 20px;
+    padding: 40px;
     padding-right: 16px; 
     padding-left: 16px;
+   
 }
+
+.video-section h2 {
+    display: block; 
+}
+
 
 .video-section h2 {
     font-size: 24px;
@@ -221,7 +229,6 @@ body {
     border: 1px solid #cc0000;
 }
 
-/* Navbar fixed and Sticky Sidebar */
 body {
     display: flex;
     flex-direction: column;
